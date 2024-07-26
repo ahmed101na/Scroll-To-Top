@@ -1,0 +1,58 @@
+/* Importing Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Resetting margin and padding for all elements and setting a default font */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+
+/* Setting height and background color for the body */
+body {
+  height: 1500px;
+  background-color: rgb(202, 209, 215);
+}
+
+/* Styling the header section */
+header {
+  padding: 20px;
+  color: #1f81d7;
+  text-align: center;
+  background-color: black;
+  border-radius: 0 0 25px 25px;
+}
+
+/* Styling the .up element (e.g., a back-to-top button) */
+.up {
+  position: fixed;
+  bottom: 50px;
+  right: -200px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* Additional styling for .up element when it has the .show class */
+.up.show {
+  right: 30px;
+}
+
+/* Styling the .info section */
+.info {
+  margin: 20px;
+  padding: 30px;
+  line-height: 2;
+  color: white;
+  border-radius: 15px;
+  background-color: #201e1e;
+  /* Adding box shadow to .info element */
+  -webkit-box-shadow: -1px 2px 12px 2px rgba(32, 30, 30, 1); /* For Safari and Chrome */
+  -moz-box-shadow: -1px 2px 12px 2px rgba(32, 30, 30, 1);    /* For Firefox */
+  box-shadow: -1px 2px 12px 2px rgba(32, 30, 30, 1);         /* Standard property */
+}
